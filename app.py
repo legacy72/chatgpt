@@ -1,9 +1,8 @@
 import openai
-import toml
 import streamlit as st
 from streamlit_chat import message
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPENAI_KEY"]
 
 CONTENT_PROMPT = """
 The below is your system prompt, you will respond according to these instructions
