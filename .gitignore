@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+__pycache__
+.env
+.vscode
+.idea
+.swp
+.~lock*#
+celerybeat-schedule
+.devspace
+venv
+coverage.xml
+.coverage
+.flake8
+debug.py
+secrets.toml
